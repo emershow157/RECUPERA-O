@@ -1,0 +1,100 @@
+.container{
+    height: 100%;
+    width: 100%;
+    width: 600px;
+
+}
+
+.html{
+    height: 100%;
+}
+.youtube{
+font-weight: bold;
+fill: red;
+gap: 20px;
+font-size:x-large;
+border: none;
+display: flex;
+align-items: center;
+
+}
+.video{
+    background-color: black;
+    width: 600px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.video button {
+    display: none;
+    color: white;
+    background-color: black;
+    fill: white;
+    border: none;
+}
+
+.video:hover button {
+    display: block;
+    cursor: pointer;
+}
+
+.like{
+    border-radius: 20px;
+    background-color: black;
+    fill: white;
+    color: white;
+    border: none;
+cursor: pointer;
+height: 30px;
+}
+.iconestop{
+display: flex;
+align-items: center;
+
+}
+.acima{
+    display: flex;
+    gap:5px;
+    position: absolute;
+    right: 0px;
+
+}
+.iconesmid{
+    display: flex;
+align-items: center;
+height: 30px;
+width: 30px;
+
+}
+.iconesbot{
+    display: flex;
+    align-items: center;
+
+}
+.mid{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.bot{
+    display: flex;
+    gap:5px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.titulo{
+    display: flex;
+    border: none;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
